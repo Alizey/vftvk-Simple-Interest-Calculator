@@ -1,4 +1,63 @@
-body {background-color:tan;}
-h1{color:green;}
+body{
+	background-color:black;
+}
+.heading{
+	padding-left:1px;
 
+	color:#909090;
+}
+#cal {
+	background-color:white;
+	
+	border:1px solid black;
+	border-radius:25px;
+	margin-left:25%;
+	margin-top:5%;
+	margin-right:10%;
+	padding:5%;
+	width:40%;
+    font-family:Verdana;
+	
+	}
 
+.entry{
+	padding:2%;
+    padding-left:10%;
+	font-weight: 600;
+	font-family:Arial;
+
+	}
+.c{
+	border:1px solid black;
+	border-radius:50%;
+	padding:0px;
+	
+
+	
+	
+
+   }
+.space1{
+	padding-right:15%;
+	
+	font-size:17px;	
+	
+}
+.space2{
+	padding-right:7%;
+	font-size:15px;
+	font-size:17px;	
+	}
+.space3{
+	padding-right:10%;
+	font-size:15px;
+	font-size:17px;	
+	}
+#demo{
+	padding-left:10%;
+	font-size:15px;
+	
+}
+.button{
+	margin-left:10%;
+}
