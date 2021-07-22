@@ -6,8 +6,24 @@ function compute()
 	total=((interest * amount)/100)* noofyrs;
 	
 	year=2020 + parseInt(noofyrs);
-	document.getElementById("demo").innerHTML = "If you deposit "  +  amount+ "<br>" +
-	"at an interest rate of " + interest + "<br>" + "You will receive an amount of " + total +"<br>"+"in the year " + year;
-    
-}
+	if(amount===""){
+			alert("Please enter positive number")
+		document.getElementById("principal").focus();
+	}
+	else if (amount==0){
+		alert("Please enter positive number")
+		document.getElementById("principal").focus();
+	}
+	else if(amount<0)
+	{
+		alert("Please enter positive number")
+		document.getElementById("principal").focus();
+	}
+	else{
+	document.getElementById("demo").innerHTML = "If you deposit "  + "<mark> "+ amount + "</mark>" +"<br>" +
+	"at an interest rate of " +" <mark>"+ interest +"%"+ "</mark>" + "<br>" + "You will receive an amount of "+ "<mark>"+ total +"</mark>" +"<br>"+"in the year " +"<mark>"+ year+
+	"</mark>";
+	}
+       
+	  }
       
